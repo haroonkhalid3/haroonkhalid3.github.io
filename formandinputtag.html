@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms and input tags</title>
+</head>
+<style>
+    .emp{
+        color: rgb(121, 134, 134);
+        background-color: rgb(234, 221, 234);
+        border: 2px solid rgb(38, 33, 33);
+        
+    }
+</style>
+
+<body>
+    <h2>HTML tutorial for form and input tags</h2>
+    <!-- int the form action we provide an backend file but i dont have so i write it simply a demo  -->
+    <form action="website.html">
+        <!-- here we use another tag instead of using the br tag which is the div tag which divides -->
+        <!-- NOW FOR THE LABELING WE CAN DO IT AS  -->
+        <label class="emp" for="name">NAME</label>
+        <div >
+            <input type="text" name="myname" id="name">
+        </div>
+        <!-- now here i can add br just to make it look beautiful  -->
+        <br>
+        <label for="role">ROLE</label>
+        <div>
+            <input type="text" name="myrole" id="role">
+            <!-- NOW SIMPLY IF I CLICK ON THE NAME OR THE ROLE ON THE SITE IT WILL TAKE ME TO THAT COLUMN WHERE I WILL WRITE MY NAME OR THE ROLE  -->
+        </div>
+        <br>
+        <label for="mail">EMAIL:</label>
+        <div>
+            <input type="email" name="mymail" id="mail">
+            <!-- that my mail wil in the backend file  -->
+        </div>
+        <br>
+        <div>
+           DATES:  <input type="date" name="my date">
+        </div>
+        <br>
+        <div>
+            COUNT : <input type="number" name="mynumber">
+        </div>
+        <br>
+        <label for="eligibility">MY ELIGIBILITY</label>
+        <div> 
+            <input type="checkbox" name="myeligibility" id="eligibility">
+        </div>
+        <br>
+        <!-- now if i want to keep the box checked by default the we will do thi s 000 -->
+        <div>
+            Am i eligible : <input type="checkbox" name="myeligibility" checked>
+        </div>
+        <br>
+        <div>
+            GENDER : MALE <input type="radio" name="mygender">
+            FEMALE <input type="radio" name="mygender">
+            OTHER <input type="radio" name="mygender">
+
+        </div>
+        <br>
+        <!-- THERE IS ANOTHER TAG WHICH WE CALL AS INPUT AREA to add texts -->
+        <div>
+            write text here <br><textarea name="mytext" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <!-- THERE EXIST A TAG FOR THE SUBMISSION LYK IF THERE IS A OPTION TO SELECT BETWEEN THREE CARS OR SOMETHING IT CAN BE DONE AS  -->
+        <div>
+            <label for="car">CARS</label>
+        
+            <select name="mycar" id="car">
+            <!-- NOW THERE ARE OPTIONS USED IN THE SELECT000 -->
+            <option value="civic">CIVIC</option>
+            <option value="sonata" selected>SONATA</option>
+            <!-- here we can use the term selected to select anything by default  -->
+        </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="SUBMIT NOW">
+        </div>
+        <!-- this tag is for the submission of the dta we enter  -->
+        <br>
+        <div>
+            <input type="reset" value="RESET NOW">
+        </div>
+        <!-- THIS TAG SIMPLY RESETS EVERYTHING  -->
+    </form>
+
+</body>
+
+</html>
