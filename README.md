@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -38,7 +38,7 @@
 <body>
     <table cellspacing="10px">
         <tr>
-            <td><img src="http://127.0.0.1:5500/Html-/haroon.png" alt="Not found"></td>
+            <td><img src="haroon.png" alt="Not found"></td>
         <td><h1>Haroon  Khalid !</h1>
             <p> <em>
                 I am studing <strong>computer science🖥️ !</strong> <br>
