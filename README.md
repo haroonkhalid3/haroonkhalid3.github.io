@@ -5,7 +5,7 @@
     <title>My first personal site!</title>
     <style>
         body{
-            background-color: rgb(195, 231, 231);
+            background-color: #BACDDB;
         }
         ol li:hover{
             background-color: black;
