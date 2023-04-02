@@ -7,13 +7,7 @@
         body{
             background-color: #BACDDB;
         }
-        ol li:hover{
-            background-color: black;
-            color: rgb(112, 128, 128);
-            border: 2px solid rgb(160, 160, 189);
-            width: 50%;
-            /* display: block; */
-        }
+      
         img{
             border-radius: 100%;
             width: 60%;
@@ -23,10 +17,10 @@
         a{
             color: black;
         }
-        a:hover{
-            color: black;
-            background-color: rgb(77, 85, 85);
-            border: 2px solid black;
+       a:hover{
+            color: rgb(112, 105, 105);
+            
+            border:none;
         }
         /* #haroon:hover{
             background-color: antiquewhite;
@@ -56,13 +50,7 @@
 <hr size="5" noshade="">
 <a href="hobbies.html" target="_blank">My skills!</a>
 <hr size="5" noshade="">
-<h3>Favourite cars !</h3>
-<ol>
-    <li class="haroon">TOYOTA SUPRA</li>
-    <li>HONDA CIVIC 2000</li>
-    <li>NISSAN GTR R-35</li>
-</ol>
-<hr size="10 " noshade>
+
 <h3>Work Experience-</h3>
 <table cellspacing="10px">
     <thead>
@@ -100,28 +88,11 @@
         
                 <tr>
                     <td>Web development</td>
-                    <td>⭐⭐</td>
+                    <td>⭐⭐⭐⭐</td>
                 </tr>
             <!-- </tbody> -->
         </table>
     </td>
-        <td>
-            <table cellspacing="10px">
-        
-                <!-- <tbody> -->
-                    <tr>
-                        <td>Photography-</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                        
-                    </tr>
-            
-                    <tr>
-                        <td>Gaming</td>
-                        <td>⭐⭐</td>
-                    </tr>
-                <!-- </tbody> -->
-            </table>
-        </td>
 
     </tr>
     
