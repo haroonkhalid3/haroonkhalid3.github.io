@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>My first personal site!</title>
+    <link rel="icon" href="favicon (1).ico?v2">
     <style>
         body{
             background-color: #BACDDB;
